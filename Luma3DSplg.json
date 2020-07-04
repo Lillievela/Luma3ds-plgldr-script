@@ -1,0 +1,33 @@
+{
+	"info": {
+		"title": "Luma3DS Plugin Loader 10.0.1",
+		"author": "Various",
+		"shortDesc": "Modified versions of Luma3DS\n the most popular and supported 3DS CFW.",
+		"description": "With this script, you can change to\nvarious versions of\nplugin loaders\n\nScript by LillieVela",
+		"barColor": "#395472",
+		"bgBottomColor": "#262C4D",
+		"bgTopColor": "#60A8C0",
+		"textColor": "#FFFFFF",
+		"selectedColor": "#78C0D8",
+		"unselectedColor": "#4D7684",
+		"version": 3,
+		"revision": 0
+	},
+	"Luma3DS PlgLdr 10.0.1 (FIRM)": [
+		{
+			"type": "downloadRelease",
+			"repo": "mariohackandglitch/Luma3DS",
+			"file": "boot.firm",
+			"output": "/boot.firm",
+			"message": "Downloading the plugin loader Luma3DS FIRM..."
+		}
+	],
+	"Luma3DS 3gxldr 10.1.3 (FIRM)":[
+        {
+            "type": "downloadFile",
+            "file": "https://github.com/Codec-J/PokemonXYPlugin/raw/master/boot.firm",
+            "output": "/boot.firm",
+            "message": "Downloading the 3gx loader Luma3DS FIRM..."
+        }
+    ]
+}
